@@ -1,6 +1,6 @@
 # vue-long-press-directive
 
-Long press directive plugin for Vue.js. See the [live demo](https://kapetan.github.io/vue-long-press-directive/demo/index.html).
+Long press directive plugin for Vue.js. See the [live demo](https://jcharante.com/vue-long-press-directive/demo) (default setting of 2000ms).
 
     npm install @jcharante/vue-long-press-directive
 
@@ -10,7 +10,7 @@ Register the plugin with Vue. It's possible to specify the press duration in the
 
 ```javascript
 var Vue = require('vue')
-var longpress = require('vue-long-press-directive')
+var longpress = require('@jcharante/vue-long-press-directive')
 
 Vue.use(longpress, { duration: 1000 })
 ```
